@@ -107,7 +107,7 @@ particlesJS('particles-js', {
   
     document.getElementById('downloadButton').addEventListener('click', function() {
       // URL to the PDF file
-      const pdfUrl = './Divya_5years_Fullstack.pdf';
+      const pdfUrl = './5years_Fullstack.pdf';
   
       // Create a temporary anchor element
       const link = document.createElement('a');
