@@ -103,4 +103,28 @@ particlesJS('particles-js', {
     },
     "retina_detect": true
   });
+
+  
+    document.getElementById('downloadButton').addEventListener('click', function() {
+      // URL to the PDF file
+      const pdfUrl = './Divya_5years_Fullstack.pdf';
+  
+      // Create a temporary anchor element
+      const link = document.createElement('a');
+      link.href = pdfUrl;
+  
+      // Set the download attribute to specify the filename
+      link.download = 'filename.pdf';
+  
+      // Append the anchor element to the body
+      document.body.appendChild(link);
+  
+      // Programmatically click the link to trigger the download
+      link.click();
+  
+      // Clean up: remove the anchor element from the body
+      document.body.removeChild(link);
+  });
+  
+  
   
