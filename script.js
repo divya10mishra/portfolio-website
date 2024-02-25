@@ -114,7 +114,7 @@ particlesJS('particles-js', {
       link.href = pdfUrl;
   
       // Set the download attribute to specify the filename
-      link.download = 'filename.pdf';
+      link.download = '5years_Fullstack.pdf';
   
       // Append the anchor element to the body
       document.body.appendChild(link);
