@@ -107,7 +107,7 @@ particlesJS('particles-js', {
   
     document.getElementById('downloadButton').addEventListener('click', function() {
       // URL to the PDF file
-      const pdfUrl = './5+Years_Software Developer.pdf';
+      const pdfUrl = './SoftwareEngineer_5+years.pdf';
   
       // Create a temporary anchor element
       const link = document.createElement('a');
